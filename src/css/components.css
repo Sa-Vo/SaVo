@@ -1,0 +1,21 @@
+.title--small {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+.title-sub--orange {
+  color: #ff5722;
+}
+.title-sub--green {
+  color: #388e3c;
+}
+
+.title-sub--blue {
+  color: #2196f3;
+}
+.title-sub--grey {
+  color: #616161;
+}
+.text-size {
+  text-align: justify;
+  font-size: 1.6rem;
+}
