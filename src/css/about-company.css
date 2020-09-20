@@ -1,0 +1,14 @@
+.text-info {
+  padding: 0;
+}
+
+.text-info-item {
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+.text-info-sub {
+  font-size: 1.8rem;
+  margin: 0;
+  margin-left: 1rem;
+}

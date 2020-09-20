@@ -1,5 +1,4 @@
-.title--small {
-  margin-bottom: 0;
+.title-inc {
   font-size: 3rem;
 }
 .title-sub--orange {
@@ -18,4 +17,9 @@
 .text-size {
   text-align: justify;
   font-size: 1.6rem;
+}
+.text-gray {
+  color: #757575;
+  font-size: 1.5rem;
+  margin: 0;
 }
