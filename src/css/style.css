@@ -47,13 +47,16 @@ img {
 }
 /* svg logo */
 .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   padding: 2rem;
 }
 /* hamburder menu */
 .nav {
+  font-family: "Raleway", sans-serif;
   height: 10vh;
   display: flex;
-  align-items: center;
+
   /* background: #111111; */
 }
 
@@ -85,7 +88,7 @@ img {
   transition: width 300ms ease-in;
 }
 .hover--link:hover {
-  color: #212121;
+  color: #6e7371;
   transition: 0.5s;
 }
 
@@ -271,5 +274,7 @@ img {
   }
   .bio-text {
     font-size: 3rem;
+
+    padding: 0 4rem;
   }
 }
