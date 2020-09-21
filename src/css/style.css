@@ -47,13 +47,19 @@ img {
 }
 /* svg logo */
 .logo {
+  transition: 0.5s;
+  margin: auto 0;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  padding: 2rem;
+  padding: 2rem 5rem;
+}
+.logo:hover {
+  transform: scale(1.5);
+  transition: 1s;
 }
 /* hamburder menu */
 .nav {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Mono";
   height: 10vh;
   display: flex;
 
@@ -82,13 +88,22 @@ img {
   display: block;
   content: "";
   width: 0;
-  background-color: #bf1e2d;
-  height: 2px;
+  background-color: #0c325b;
+  height: 5px;
+  borderra: 50%;
   margin-top: 1px;
-  transition: width 300ms ease-in;
+  transition: width 350ms cubic-bezier(0.76, 0.02, 0.24, 0.99);
 }
+.nav-item {
+  transition: 0.5s;
+}
+.nav-item:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
 .hover--link:hover {
-  color: #6e7371;
+  color: #829fd9;
   transition: 0.5s;
 }
 
@@ -203,6 +218,7 @@ img {
     font-size: 2.6rem;
   }
   .bio-text {
+    padding: 0 3rem;
     font-size: 2.2rem;
   }
 }
