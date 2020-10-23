@@ -5,7 +5,7 @@
 // });
 // text.start();
 // text.reveal(4000);
-const text = baffle(".text-pizda");
+const text = baffle(".text-hack");
 var i = 1;
 
 do {
